@@ -1,0 +1,24 @@
+print("Witaj osobo po 40 :D")
+print('''    "ŻAL.PL"
+    "TUFF"
+    "CRINGE"
+    "TWIN"
+    "KLASA"
+    "FR"
+    "67"''')
+slownik_memow = {
+    "ŻAL.PL": "Coś żenującego",
+    "TUFF": "Coś kozackiego, fajnego",
+    "CRINGE": "coś mega dziwnego",
+    "TWIN": "osoba, którą bardzo lubimy (a nawet uwielbiamy/kochamy)",
+    "KLASA": 'Oznacza coś świetnego np. ktoś zrobił dobrze zadanie z Pythona, a nauczyciel mówi Klasa :P',
+    "FR": 'z angielskiego oznacza For Real i używa się go do zgadzania się z odbiorcą',
+    "67": 'Jakaś randomowa liczba, która wogóle nie ma sensu.'
+}
+for i in range(5):
+    word = input("Wpisz słowo, którego nie rozumiesz (Używaj Wielkich Liter!): ")
+
+    if word in slownik_memow.keys():
+        print(word, slownik_memow[word])
+    else:
+        print("Nie ma takiego słowa!")
