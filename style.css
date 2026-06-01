@@ -1,0 +1,16 @@
+body {
+    font-family: Arial,  sans-serif; /* Rodzina czcionek */
+    font-size: 11px; /* Rozmiar głównej czcionki w <p></p> tag  */
+    background-color: #f0f0f0; /* Kolor tła strony internetowej */
+    color: #333333; /* Kolor tła strony internetowej*/ 
+}
+
+h1 {
+  animation: color-change 3s infinite;
+}
+
+@keyframes color-change {
+  0%   { color: #7cae7a }
+  50%  { color: #f7b32b; }
+  100% { color: #1a8dd3; }
+}
